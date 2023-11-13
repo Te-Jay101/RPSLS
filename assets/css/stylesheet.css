@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* setting up the basic styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
