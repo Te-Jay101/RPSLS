@@ -16,3 +16,41 @@ body {
     margin: 0;
 }
 
+/* Rule Styling */
+
+.rules {
+
+}
+
+
+/* Choice Styling */
+
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .choice {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .choice img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 5px;
+  }
+  
+  .choice:hover {
+    background-color: #d9d9d9;
+  }
